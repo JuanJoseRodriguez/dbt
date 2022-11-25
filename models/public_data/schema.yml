@@ -1,0 +1,46 @@
+version: 2
+
+models:
+    - name: data2
+      description: "Data model"
+      columns:
+          - name: date
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+          - name: user_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+          - name: user_uid
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+          - name: leads
+            description: "The primary key for this table"
+            tests:
+                - not_null
+          - name: lead_stage2
+            description: "The primary key for this table"
+            tests:
+                - not_null
+          - name: lead_stage3
+            description: "The primary key for this table"
+            tests:
+                - not_null
+          - name: sql
+            description: "The primary key for this table"
+            tests:
+                - not_null
+          - name: new_customers
+            description: "The primary key for this table"
+            tests:
+                - not_null
+          - name: lost_customers
+            description: "The primary key for this table"
+            tests:
+                - not_null
+          
