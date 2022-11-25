@@ -7,40 +7,25 @@ models:
           - name: date
             description: "The primary key for this table"
             tests:
-                - unique
                 - not_null
           - name: user_id
             description: "The primary key for this table"
             tests:
-                - unique
                 - not_null
           - name: user_uid
             description: "The primary key for this table"
             tests:
-                - unique
                 - not_null
           - name: leads
-            description: "The primary key for this table"
-            tests:
-                - not_null
+            description: "leads"
           - name: lead_stage2
-            description: "The primary key for this table"
-            tests:
-                - not_null
+            description: "lead stage 2"
           - name: lead_stage3
-            description: "The primary key for this table"
-            tests:
-                - not_null
+            description: "lead stage 3"
           - name: sql
-            description: "The primary key for this table"
-            tests:
-                - not_null
+            description: "sql"
           - name: new_customers
-            description: "The primary key for this table"
-            tests:
-                - not_null
+            description: "new customers"
           - name: lost_customers
-            description: "The primary key for this table"
-            tests:
-                - not_null
+            description: "lost customers"
           
